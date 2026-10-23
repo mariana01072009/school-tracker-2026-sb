@@ -3,8 +3,8 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 /* =========================================================
    INICIALIZAÇÃO DO SUPABASE CLIENT
    ========================================================= */
-const SUPABASE_URL = 'https://jrdzgddszylausmwgrxw.supabase.co&#39;;
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpyZHpnZGRzenlsYXVzbXdncnh3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE1NzAwNDgsImV4cCI6MjEwNzE0NjA0OH0.6a9pbuSuabu9yP5zdtlemeIQYTXIB4ArauayEi5N-BY'; // Insira a sua chave anon public
+const SUPABASE_URL = 'https://ebebredjgenptuksjalv.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImViZWJyZWRqZ2VucHR1a3NqYWx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5NzQxNTgsImV4cCI6MjEwNzU1MDE1OH0._t_30UYqo61693AVKV84QhTLtEo32NsDGfBpj6oIP_c'; // Insira a sua chave anon public
 
 const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
